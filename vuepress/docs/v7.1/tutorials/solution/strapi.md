@@ -200,7 +200,7 @@ Follow the steps below to create and modify content templates with the Strapi Co
 4. Click `View Published Page`
 5. Click on the three dots on the right of the line listing the template 
 
-![strapi-template-listed.png](./strapi-images/strapi-template-listed.png)
+![strapi-content-template-page.png](./strapi-images/strapi-content-template-page.png)
 
 6. Select `Edit` to edit the Name, HTML Model and/or Style Sheet fields
 7. Click `Save`
@@ -219,7 +219,7 @@ Follow the steps below to create and modify content templates with the Strapi Co
 6. Select `Delete`
 7. Click `Delete` in the pop-up box to confirm
 
-![strapi-delete-template.png](./strapi-images/strapi-delete-template.png)
+![strapi-delete-content.png](./strapi-images/strapi-delete-content.png)
 
 ## Next Steps
 
