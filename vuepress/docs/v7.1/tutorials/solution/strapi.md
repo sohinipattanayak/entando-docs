@@ -107,6 +107,33 @@ Perform the steps in the following sections to properly prepare your Entando App
 
 Before you can configure the Strapi Content Template Widget, you must add content to your Strapi instance. Refer to the Strapi [Quick Start Guide](https://docs.strapi.io/developer-docs/latest/getting-started/quick-start.html) for a tutorial on content creation. Additional information is available in the [Strapi user guide](https://docs.strapi.io/user-docs/latest/getting-started/introduction.html).
 
+Below you will find an example of strapi content we created for you.
+
+1. Login to Strapi
+
+2. From the left sidebar, click on - "Content-Type Builder", and create a new collection type. In our case, let’s name it - “Quote”
+
+![strapi-quote-config](./strapi-images/strapi-quote-config.png)
+
+3. We’ll click on - “Continue” and then select a field for our collection type - “Text”.
+
+Followed by this we’ll add the name of the first entry we want to create. We’ll name it “quotes”, and select Short Text.
+
+![strapi-quote-config](./strapi-images/strapi-new-entry.png)
+
+4. After this step, click on Finish and click on the Save button before moving out of this page.
+
+5. Now click on “Content Manager” from the left sidebar, and from “Collection Types”, click on “Quote”, and you can create one or many entries here. 
+
+![strapi-quote-config](./strapi-images/strapi-published.png)
+
+Lets create some more quotes - 
+
+![strapi-quote-config](./strapi-images/strapi-quotes-list.png)
+
+All our content for strapi is now ready. We can use this content collection to display content in the Entando App Pages.
+
+
 ### Configure the Strapi Config Widget
 
 The Strapi Config Widget provides the Strapi Content Template, Strapi Content and Strapi Content List widgets with the application URL of the Strapi instance. The URL is managed from a single field entry, which must be defined prior to using the 3 dependent widgets. 
@@ -157,9 +184,13 @@ Follow the steps below to create and modify content templates with the Strapi Co
    - Attributes: Pre-populated from the Strapi definition of the content type
    - HTML Model: HTML code for the template, which is guided by clicking `Inline editing assist`
 
-![strapi-content-template-fields.png](./strapi-images/strapi-content-template-fields.png)
+   In case you use the "Quotes" Content example from above, the "Content type" attribute would be “Quote”. And the rest of the fields will be as follows - 
 
-11. Click `Save`
+![strapi-content-template-2.png](./strapi-images/strapi-content-template-2.png)
+
+11. Click `Save` and you can see it appear on the Content Template Page
+
+![content-template-updated.png](./strapi-images/content-template-updated.png)
 
 #### Edit a Content Template
 
