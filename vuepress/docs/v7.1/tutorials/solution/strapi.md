@@ -188,6 +188,22 @@ Follow the steps below to create and modify content templates with the Strapi Co
 
 ![strapi-content-template-2.png](./strapi-images/strapi-content-template-2.png)
 
+This is the HTML Snippet - 
+
+```
+<div id="">
+    #if ($content.quotes) 
+    <div>
+        $content.quotes
+    </div> 
+    #else 
+    <div>
+        no quotes
+    </div> 
+    #end
+</div>
+```
+
 11. Click `Save` and you can see it appear on the Content Template Page
 
 ![content-template-updated.png](./strapi-images/content-template-updated.png)
